@@ -1,79 +1,42 @@
 .btn {
   padding: 2rem 4rem;
-  border: 2px solid var(--color, black);
+  border: 2px solid var(--button-border);
+  color: var(--button-text, black);
   background: transparent;
   font-size: 1.6em;
   border-radius: 2px;
+}
+
+.btn:hover {
+  background-color: var(--bg-color, white);
+  color: var(--button-text, white);
 }
 /* Créer les variables CSS correpondantes aux classes des différents boutons
 
 Ne pas oublier l'effet au survol (effet inversé / fond de la variable de couleur)*/
 
-
 .normal {
   --button-border: black;
-}
-.normal:hover {
   --bg-color: black;
-  --button-text: white;
-}
-.normal {
-  background-color: var(--bg-color);
-  color: var(--button-text);
-  border-color: var(--button-border);
 }
 
 .red {
   --button-border: red;
-}
-.red:hover {
   --bg-color: red;
-  --button-text: white;
 }
-.red {
-  background-color: var(--bg-color);
-  color: var(--button-text);
-  border-color: var(--button-border);
-}
-
 
 .green {
   --button-border: green;
-}
-.green:hover {
   --bg-color: green;
-  --button-text: white;
 }
-.green {
-  background-color: var(--bg-color);
-  color: var(--button-text);
-  border-color: var(--button-border);
-}
-
 
 .yellow {
   --button-border: yellow;
-}
-.yellow:hover {
   --bg-color: yellow;
-  --button-text: white;
+  --button-text: black
 }
-.yellow {
-  background-color: var(--bg-color);
-  color: var(--button-text);
-  border-color: var(--button-border);
-}
-
 
 .blue {
   --button-border: blue;
-}
-.blue:hover {
   --bg-color: blue;
-  --button-text: white;
-}
-.blue {
-  background-color: var(--bg-color);
-  color: var(--button-text);
-  border-color: var(--button-border);
 }
